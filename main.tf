@@ -8,5 +8,6 @@ resource "aws_instance" "fusionnex_ec2" {
 
   tags = {
     Name = "Terraform-EC2"
+
   }
 }
